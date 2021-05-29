@@ -1231,48 +1231,58 @@
       <pose frame=''>-16.6304 9.42129 0 0 -0 0</pose>
     </model>
     <state world_name='default'>
-      <sim_time>409 630000000</sim_time>
-      <real_time>8 186308414</real_time>
-      <wall_time>1621968618 879584425</wall_time>
-      <iterations>8039</iterations>
+      <sim_time>424 985000000</sim_time>
+      <real_time>0 0</real_time>
+      <wall_time>1622279145 374336994</wall_time>
+      <iterations>0</iterations>
       <model name='ElderLadyPatient'>
-        <pose frame=''>-11.3469 -8.39689 0.00166 0 -0 3.13189</pose>
+        <pose frame=''>-11.3469 -8.39689 0.001656 -3e-06 4e-06 3.13189</pose>
         <scale>1 1 1</scale>
         <link name='body'>
-          <pose frame=''>-11.3469 -8.39689 0.00166 0 -0 3.13189</pose>
+          <pose frame=''>-11.3469 -8.39689 0.001656 -3e-06 4e-06 3.13189</pose>
           <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>-0.016184 0.000154 6.04254 3.0471 0.314633 3.14159</acceleration>
-          <wrench>-0.016184 0.000154 6.04254 0 -0 0</wrench>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='ElderLadyPatient_clone'>
-        <pose frame=''>-19.0677 -8.49525 0.001656 -3e-06 4e-06 0.006245</pose>
+        <pose frame=''>-19.0677 -8.49525 0.00166 0 -0 0.006245</pose>
         <scale>1 1 1</scale>
         <link name='body'>
-          <pose frame=''>-19.0677 -8.49525 0.001656 -3e-06 4e-06 0.006245</pose>
+          <pose frame=''>-19.0677 -8.49525 0.00166 0 -0 0.006245</pose>
           <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 -9.8 0 -0 0</acceleration>
-          <wrench>0 0 -9.8 0 -0 0</wrench>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='ElderMalePatient'>
-        <pose frame=''>-11.3452 -3.61255 0.001654 3e-06 -4e-06 3.13124</pose>
+        <pose frame=''>-11.3452 -3.61255 0.001656 -3e-06 4e-06 3.13124</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>-11.3452 -3.61255 0.001654 3e-06 -4e-06 3.13124</pose>
+          <pose frame=''>-11.3452 -3.61255 0.001656 -3e-06 4e-06 3.13124</pose>
           <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 -9.8 0 -0 0</acceleration>
-          <wrench>0 0 -9.8 0 -0 0</wrench>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='ElderMalePatient_clone'>
-        <pose frame=''>-19.0645 -3.60799 0.001654 3e-06 -4e-06 -0.015347</pose>
+        <pose frame=''>-19.0645 -3.60799 0.001656 -3e-06 4e-06 -0.015347</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>-19.0645 -3.60799 0.001654 3e-06 -4e-06 -0.015347</pose>
+          <pose frame=''>-19.0645 -3.60799 0.001656 -3e-06 4e-06 -0.015347</pose>
           <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 -9.8 0 -0 0</acceleration>
-          <wrench>0 0 -9.8 0 -0 0</wrench>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='FemaleVisitorSit'>
+        <pose frame=''>5.97791 6.63755 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='body'>
+          <pose frame=''>5.97791 6.63755 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='InstrumentCart1'>
@@ -1345,6 +1355,46 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
+      <model name='PotatoChipChair_clone'>
+        <pose frame=''>4.75022 6.64067 0 0 0 -1.56499</pose>
+        <scale>1 1 1</scale>
+        <link name='body'>
+          <pose frame=''>4.75022 6.64067 0 0 0 -1.56499</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='PotatoChipChair_clone_clone'>
+        <pose frame=''>6.52173 6.6137 0 0 0 -1.56499</pose>
+        <scale>1 1 1</scale>
+        <link name='body'>
+          <pose frame=''>6.52173 6.6137 0 0 0 -1.56499</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='PotatoChipChair_clone_clone_0'>
+        <pose frame=''>8.52389 6.63051 0 0 0 -1.56499</pose>
+        <scale>1 1 1</scale>
+        <link name='body'>
+          <pose frame=''>8.52389 6.63051 0 0 0 -1.56499</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='PotatoChipChair_clone_clone_1'>
+        <pose frame=''>10.3104 6.58741 0 0 0 -1.56499</pose>
+        <scale>1 1 1</scale>
+        <link name='body'>
+          <pose frame=''>10.3104 6.58741 0 0 0 -1.56499</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
       <model name='TVStand'>
         <pose frame=''>-19.7871 -5.03165 0 0 -0 1.56157</pose>
         <scale>1 1 1</scale>
@@ -1356,7 +1406,7 @@
         </link>
       </model>
       <model name='TVStand_clone'>
-        <pose frame=''>-19.8078 -7.00803 -0 0 -0 1.56157</pose>
+        <pose frame=''>-19.8078 -7.00803 0 0 -0 1.56157</pose>
         <scale>1 1 1</scale>
         <link name='body'>
           <pose frame=''>-19.8078 -7.00803 -0 0 -0 1.56157</pose>
@@ -1366,7 +1416,7 @@
         </link>
       </model>
       <model name='TVStand_clone_0'>
-        <pose frame=''>-10.6043 -5.10464 -0 0 -0 1.56157</pose>
+        <pose frame=''>-10.6043 -5.10464 0 0 -0 1.56157</pose>
         <scale>1 1 1</scale>
         <link name='body'>
           <pose frame=''>-10.6043 -5.10464 -0 0 -0 1.56157</pose>
@@ -1435,6 +1485,16 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
+      <model name='aws_robomaker_hospital_nursesstation_01'>
+        <pose frame=''>8.05888 -3.51147 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose frame=''>8.05888 -3.51147 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
       <model name='aws_robomaker_residential_CoffeeTable_01'>
         <pose frame=''>-9.1207 -5.4577 0 0 0 -1.55762</pose>
         <scale>1 1 1</scale>
@@ -1469,7 +1529,7 @@
         <pose frame=''>-4.6832 -5.10137 0 0 0 -1.57779</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>-4.6832 -5.10137 0 0 0 -1.57779</pose>
+          <pose frame=''>-4.6832 -5.10137 -0 0 0 -1.57779</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -1479,18 +1539,18 @@
         <pose frame=''>-4.69771 -7.01296 0 0 -0 1.57577</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>-4.69771 -7.01296 0 0 -0 1.57577</pose>
+          <pose frame=''>-4.69771 -7.01296 -0 0 -0 1.57577</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='aws_robomaker_residential_Sofa_01'>
-        <pose frame=''>-8.67509 -6.07979 0 0 0 -3.1402</pose>
+        <pose frame=''>-8.67428 -6.0798 -3.6e-05 0.000321 0.000566 -3.14003</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>-8.67509 -6.07979 0 0 0 -3.1402</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
+          <pose frame=''>-8.67428 -6.0798 -3.6e-05 0.000321 0.000566 -3.14003</pose>
+          <velocity>-0 -4e-06 -0.000429 -0.091817 -0.162471 5.9e-05</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
@@ -1500,6 +1560,26 @@
         <scale>1 1 1</scale>
         <link name='link'>
           <pose frame=''>-8.231 -9.77193 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='aws_robomaker_warehouse_ClutteringA_01'>
+        <pose frame=''>1.6691 -8.85177 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose frame=''>1.6691 -8.85177 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='aws_robomaker_warehouse_ClutteringC_01'>
+        <pose frame=''>1.58461 -6.8977 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose frame=''>1.58461 -6.8977 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -1655,7 +1735,7 @@
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose frame=''>-6.32438 -32.4259 14.7416 -0 0.341562 1.54783</pose>
+        <pose frame=''>8.85774 8.34974 13.6675 0 0.477133 -1.59781</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
@@ -2618,6 +2698,353 @@
         <kinematic>0</kinematic>
       </link>
       <pose frame=''>-4.7734 -6.07637 0 0 -0 0</pose>
+    </model>
+    <model name='aws_robomaker_hospital_nursesstation_01'>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://aws_robomaker_hospital_nursesstation_01/meshes/aws_robomaker_hospital_nursesstation_01_visual.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://aws_robomaker_hospital_nursesstation_01/meshes/aws_robomaker_hospital_nursesstation_01_collision.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <static>1</static>
+      <pose frame=''>8.02127 -3.86909 0 0 -0 0</pose>
+    </model>
+    <model name='PotatoChipChair_clone'>
+      <static>1</static>
+      <link name='body'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://PotatoChipChair/meshes/PotatoChipChair.obj</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://PotatoChipChair/meshes/PotatoChipChair_Col.obj</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>4.18449 7.14358 0 0 -0 0</pose>
+    </model>
+    <model name='PotatoChipChair_clone_clone'>
+      <static>1</static>
+      <link name='body'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://PotatoChipChair/meshes/PotatoChipChair.obj</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://PotatoChipChair/meshes/PotatoChipChair_Col.obj</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>6.5665 6.56869 0 0 0 -1.56499</pose>
+    </model>
+    <model name='PotatoChipChair_clone_clone_0'>
+      <static>1</static>
+      <link name='body'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://PotatoChipChair/meshes/PotatoChipChair.obj</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://PotatoChipChair/meshes/PotatoChipChair_Col.obj</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>8.30221 6.5592 0 0 0 -1.56499</pose>
+    </model>
+    <model name='PotatoChipChair_clone_clone_1'>
+      <static>1</static>
+      <link name='body'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://PotatoChipChair/meshes/PotatoChipChair.obj</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://PotatoChipChair/meshes/PotatoChipChair_Col.obj</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>9.98694 6.58502 0 0 0 -1.56499</pose>
+    </model>
+    <model name='FemaleVisitorSit'>
+      <static>1</static>
+      <link name='body'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://FemaleVisitorSit/meshes/FemaleVisitorSit.obj</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://FemaleVisitorSit/meshes/FemaleVisitorSit_Col.obj</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>5.97791 6.63755 0 0 -0 0</pose>
+    </model>
+    <model name='aws_robomaker_warehouse_ClutteringA_01'>
+      <link name='link'>
+        <inertial>
+          <mass>2</mass>
+          <inertia>
+            <ixx>0.841</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>0.954</iyy>
+            <iyz>0</iyz>
+            <izz>1.422</izz>
+          </inertia>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <surface>
+            <friction>
+              <ode>
+                <mu>0.6</mu>
+                <mu2>0.6</mu2>
+                <fdir1>0 0 0</fdir1>
+                <slip1>0</slip1>
+                <slip2>0</slip2>
+              </ode>
+              <torsional>
+                <coefficient>1</coefficient>
+                <patch_radius>0</patch_radius>
+                <surface_radius>0</surface_radius>
+                <use_patch_radius>1</use_patch_radius>
+                <ode>
+                  <slip>0</slip>
+                </ode>
+              </torsional>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+          </surface>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
+            </mesh>
+          </geometry>
+          <meta>
+            <layer>1</layer>
+          </meta>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <static>1</static>
+      <pose frame=''>1.89053 -9.07264 0 0 -0 0</pose>
+    </model>
+    <model name='aws_robomaker_warehouse_ClutteringC_01'>
+      <link name='link'>
+        <inertial>
+          <mass>1</mass>
+          <inertia>
+            <ixx>1.558</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>1.821</iyy>
+            <iyz>0</iyz>
+            <izz>1.892</izz>
+          </inertia>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+          <surface>
+            <friction>
+              <ode>
+                <mu>0.6</mu>
+                <mu2>0.6</mu2>
+                <fdir1>0 0 0</fdir1>
+                <slip1>0</slip1>
+                <slip2>0</slip2>
+              </ode>
+              <torsional>
+                <coefficient>1</coefficient>
+                <patch_radius>0</patch_radius>
+                <surface_radius>0</surface_radius>
+                <use_patch_radius>1</use_patch_radius>
+                <ode>
+                  <slip>0</slip>
+                </ode>
+              </torsional>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+          </surface>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
+            </mesh>
+          </geometry>
+          <meta>
+            <layer>1</layer>
+          </meta>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <static>1</static>
+      <pose frame=''>1.98649 -6.82993 0 0 -0 0</pose>
     </model>
   </world>
 </sdf>
